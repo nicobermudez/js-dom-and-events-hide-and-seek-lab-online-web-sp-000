@@ -11,7 +11,7 @@ function increaseRankBy(n) {
   const rankedLists = document.querySelectorAll(".ranked-list li")
 
   return rankedLists.forEach(function(element) {
-    element.innerHTML
+    console.log(element.innerHTML)
   })
 
 }
